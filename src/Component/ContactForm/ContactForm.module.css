@@ -1,0 +1,41 @@
+.Title {
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+}
+.Form {
+  width: 400px;
+  margin: 20px 0 20px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Form label {
+  display: block;
+  margin: 5px 0;
+}
+.Form input {
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 5px 0 20px 0;
+  outline: none;
+}
+.Form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #b61cff;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 550px) {
+  .Form {
+    width: 90%;
+  }
+}

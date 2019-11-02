@@ -1,0 +1,55 @@
+.Modal {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  transition: all 0.4s ease-in;
+}
+
+.Modal h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Modal p {
+  margin: 20px 0;
+}
+.Modal button {
+  border: none;
+  padding: 8px 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  outline: none;
+}
+.Delete {
+  color: white;
+  background-color: #b61cff;
+}
+
+.Yes {
+  color: white;
+  background-color: rgb(248, 50, 50);
+
+  margin-right: 10px;
+}
+
+.Modal i {
+  color: #b61cff;
+  margin-right: 15px;
+}
+.Open {
+  top: 50%;
+}
+@media (max-width: 500px) {
+  .Modal {
+    width: 90%;
+  }
+  .Modal p {
+    font-size: 0.85em;
+  }
+}

@@ -1,0 +1,53 @@
+.SideDrawer {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  width: 300px;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 100;
+}
+.Title {
+  color: #b61cff;
+  margin-bottom: 50px;
+}
+.Title i {
+  margin: 0 10px 0 0;
+}
+.SideDrawer p {
+  color: black;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+.SideDrawer p:hover,
+.SideDrawer p:active {
+  background-color: #b61cff;
+  color: white;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+@media (max-width: 425px) {
+  .SideDrawer {
+    width: 80%;
+  }
+  .Title {
+    font-size: 1.1em;
+  }
+  .SideDrawer p {
+    font-size: 1em;
+  }
+}

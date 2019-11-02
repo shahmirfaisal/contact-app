@@ -1,0 +1,54 @@
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Form {
+  width: 90%;
+  margin-top: 30px;
+}
+.Form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+.Form button {
+  width: 100%;
+  padding: 8px 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.Form p {
+  text-align: center;
+  opacity: 0.9;
+  margin-top: 30px;
+}
+
+.btnSignUp {
+  border: none;
+  color: white;
+  background-color: #b61cff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.btnLogIn {
+  color: #b61cff;
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 425px) {
+  .Form {
+    width: 400px;
+  }
+}

@@ -1,0 +1,35 @@
+.NavBar {
+  width: 100%;
+  background-color: #b61cff;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+.NavBar i {
+  font-size: 1.4em;
+  position: absolute;
+  left: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.NavBar h2 {
+  display: inline;
+  font-weight: 400;
+  cursor: pointer;
+}
+.NavBar h2 i {
+  position: relative;
+  left: 0;
+  font-size: 1.1em;
+  margin: 0 7px;
+}
+
+@media (max-width: 425px) {
+  .NavBar h2 {
+    font-size: 1.2em;
+  }
+  .NavBar i {
+    font-size: 1.3em;
+  }
+}

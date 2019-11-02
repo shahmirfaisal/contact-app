@@ -1,0 +1,25 @@
+.Person {
+  position: relative;
+  width: 90%;
+  margin: 18px 5%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.Person p {
+  display: inline;
+  margin-right: 10px;
+}
+
+@media (min-width: 530px) {
+  .Person {
+    width: 400px;
+    font-size: 1em;
+    left: 50%;
+    transform: translateX(-60%);
+  }
+}
